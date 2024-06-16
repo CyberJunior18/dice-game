@@ -7,7 +7,7 @@ let dice2 = document.querySelector(".img2");
 let result = document.querySelector("h1")
 
 function setDiceImage(diceElement, num) {
-  diceElement.setAttribute("src", `dice${num}.png`);
+  diceElement.setAttribute("src", "dice${num}.png");
 }
 
 setDiceImage(dice1, num1);
